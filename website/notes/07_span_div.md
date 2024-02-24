@@ -43,4 +43,4 @@ We can apply css styling enclosing between these tags.
 <br>
 output
 
-![html output](../src/images/span_div.png.png)
+![html output](../src/images/span_div.png)
