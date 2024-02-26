@@ -1,0 +1,20 @@
+@font-face {
+    src: url(fonts/Sono-VariableFont_MONO\,wght.ttf);
+    font-family: Sono;
+}
+
+@font-face {
+    src: url(fonts/SplineSansMono-VariableFont_wght.ttf);
+    font-family: Spline;
+}
+
+h1 {
+    font-family: Sono, Verdana, Arial, Helvetica, sans-serif;
+}
+
+p{
+    font-family: Spline,"lucida console", "courier new";
+    font-size: 1em;
+    font-weight: bold;
+    font-style: italic;
+}
