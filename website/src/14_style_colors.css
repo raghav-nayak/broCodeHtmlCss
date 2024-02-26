@@ -1,0 +1,19 @@
+body {
+    background-color: slategray;
+}
+
+#p1 {
+    color: tomato
+}
+
+#p2 {
+    color: rgb(240, 252, 3)
+}
+
+#p3 {
+    color: #03fc28;
+}
+
+#p4 {
+    color: hsl(321, 54%, 43%)
+}
