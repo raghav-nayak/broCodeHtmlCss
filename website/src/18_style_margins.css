@@ -1,0 +1,17 @@
+
+.box {
+    border: 5px solid;
+    font-size: 5em;
+    width: 50 px;
+    height: 250px;
+    margin: auto; /* the element will be in the middle */
+}
+
+#box1 {
+    background-color: red;
+}
+
+#box2 {
+    background-color: yellow;
+    margin-left: auto; /*The margin of this element will take as much as possible */
+}
