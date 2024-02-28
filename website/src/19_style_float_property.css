@@ -1,0 +1,14 @@
+body {
+    border: 3px solid;
+    display: flow-root; /* to make images contained within the border of the body*/
+}
+
+#img1 {
+    float: right;
+    margin-right: 10px;
+}
+
+#img2 {
+    float: left;
+    margin-left: 10px;
+}
