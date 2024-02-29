@@ -1,0 +1,34 @@
+* { /* * means all elements */
+    box-sizing: border-box; /* to make sure that border and padding are not used while calculating the size. */
+}
+
+.container {
+    background-color: red;
+    height: 100vh; /* 100vh means 100 viewport; it will take entire viewing page  */
+}
+
+
+.box {
+    border: 2px solid;
+    padding: 25px;
+    /*box-sizing: border-box; /* to make sure that border and padding are not used while calculating the size. */
+
+    height: auto;
+    /* height: 200px; */
+    /* height: 50%; */
+
+    /* width: auto; */
+    /* width: 200px; */
+    width: 50%;
+
+    float: left;
+
+    text-align: center;
+
+    min-width: 100%;
+    max-width: 25%;
+
+    min-height: 25%;
+    
+
+}
