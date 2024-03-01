@@ -1,0 +1,30 @@
+#box1 {
+    width: 200px;
+    height: 200px;
+    background-color: aquamarine;
+
+    /* position: relative; */
+    /* top: 100px; /* pushed downwards 100px */
+    /* left: 100px;  /* pushed right 100px
+
+
+    /* position: absolute;
+    right: 0px;
+    bottom: 0px; */
+
+    /* position: sticky;
+    top: 0px; */
+
+    position: static;
+
+    
+}
+
+#box2 {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    position: static;
+    right: 50px;
+    bottom: 50px;
+}
