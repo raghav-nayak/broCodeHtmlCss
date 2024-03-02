@@ -6,7 +6,7 @@
 
 `background-position: center;` -> horizontal alignment
 
-`background-attachment: fixed;` -> fixed or scollable
+`background-attachment: fixed;` -> fixed or scrollable
  fixed with regard to the viewport ('fixed') 
  or scroll along with the element ('scroll') 
  or its contents ('local')
