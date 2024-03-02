@@ -1,0 +1,12 @@
+* {
+    color: white;
+}
+
+body {
+    background-image: url(./images/netflix.jpg);
+    background-repeat: no-repeat;
+    background-position: center; /* horizontal */
+    background-attachment: fixed; 
+    background-size: cover; /* to fit the image in the screen */
+}
+
