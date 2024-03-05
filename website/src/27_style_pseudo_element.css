@@ -1,0 +1,39 @@
+h1::first-letter{
+    font-size:2em;
+    font-style: italic;
+}
+
+p::first-line{
+    background-color: red;;
+}
+
+/* anything selected using mouse */
+p::selection{
+    color:green;
+    background-color: yellow;
+}
+
+/* Adding a content before the list item */
+/* #fruit li::before{
+    content: "☑️"; /* command + ctrl + space 
+} */
+
+/* Adding a content after the list item */
+#apple::after{
+    content: "🍎";
+}
+
+#banana::after{
+    content: "🍌";
+}
+
+#orange::after{
+    content: "🍊";
+}
+
+/* changing the bullet mark to tick mark for the list items */
+#fruit li::marker {
+    content: "✓";
+    color: forestgreen;
+    font-size: 1.2em;
+}
