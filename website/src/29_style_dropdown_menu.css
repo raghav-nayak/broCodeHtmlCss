@@ -1,0 +1,45 @@
+/* this will make sure that when we hover over the button then only show the dropdown menu */
+.dropdown {
+    display: inline-block;
+}
+
+.dropdown button {
+    background-color: grey;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropdown a {
+    display: block; /* to display in separate line */
+    color: black;
+    text-decoration: none; /* to remove underline */
+    padding: 10px 15px;
+}
+
+/* by default, do not show the content of dropdown menu */
+.dropdown .content {
+    display: none; /* to show only when we hover over the button */
+    position: absolute;
+    background-color: aliceblue;
+    min-width: 100px;
+    box-shadow: 2px 2px 2px rgb(13, 13, 13);
+}
+
+/* when we cover over the button, show the dropdown when we hover */
+.dropdown:hover .content {
+    display: block; 
+}
+
+/* when hover over the button, the color should change */
+.dropdown:hover button {
+    background-color: green;
+}
+
+
+
+/* when hover each item in the dropdown menu, the color should change */
+.dropdown a:hover {
+    background-color: rgb(166, 97, 231);
+}
