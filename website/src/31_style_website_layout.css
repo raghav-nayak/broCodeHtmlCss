@@ -44,3 +44,14 @@ footer {
     text-align: center;
     padding: 25px;
 }
+
+/* 
+    for mobile devices
+    responsive css
+    use 100% of width for aside, section and article
+*/
+@media screen and (max-width: 600px) {
+    aside, section, article {
+        width: 100%;
+    }
+}
