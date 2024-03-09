@@ -1,0 +1,46 @@
+* {
+    box-sizing: border-box; 
+}
+
+body {
+    margin: 0px;
+}
+
+header {
+    background-color: rgba(124, 118, 118, 0.641);
+    text-align: center;
+    padding: 25px;
+}
+
+.navbar {
+    background-color: black;
+    height: 50px;
+    color: white;
+    text-align: center;
+}
+
+aside {
+    width: 20%;
+    float: left;
+    padding: 10px;
+}
+
+section {
+    width: 40%;
+    float: left;
+    padding: 10px;
+}
+
+article {
+    width: 40%;
+    float: left;
+    padding: 10px;
+}
+
+footer {
+    display: block;
+    clear: both;
+    background-color: rgba(124, 118, 118, 0.641);
+    text-align: center;
+    padding: 25px;
+}
