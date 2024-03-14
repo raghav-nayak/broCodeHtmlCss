@@ -4,34 +4,63 @@
     background-color: red;
     font-size: 13em;
     text-align: center;
-    /* animation-name: slidDown; */
+    /* animation-name: slideDown; */
     /* animation-name: rotateZ; */
     /* animation-name: shrink; */
     /* animation-name: fade; */
-    
-    animation-duration: 2s;
-
     /* opacity: 0;
     animation-name: fadeIn; */
+
+    animation-name: colorChange;
+    /* animation-name: glow; */
+    animation-duration: 2s;
+    animation-iteration-count: 2;
+    /* animation-iteration-count: infinite; */
+    animation-direction: reverse;
+    animation-play-state: running;
+    animation-timing-function: ease-in-out;
+    /* animation-timing-function: steps(10); */
+    animation-timing-function: cubic-bezier();
 }
 
-@keyframes slidLeft {
+img {
+    animation-name: slideLeft;
+    animation-duration: 2s;
+    animation-iteration-count: 2;
+    animation-direction: reverse;
+    animation-play-state: running;
+    animation-timing-function: ease-in-out;
+}
+
+/* #box:hover{
+    animation-name: glow;
+    animation-duration: 2s;
+} */
+
+/* 
+active -> when we left click and hold the element
+#box:active{
+    animation-name: glow;
+    animation-duration: 2s;
+} */
+
+@keyframes slideLeft {
     /* from{transform: translateX(100px)} */
     from{transform: translateX(300%)} /* from 3 times the size of the element; right to left */
 }
 
 
-@keyframes slidRight {
+@keyframes slideRight {
     /* from{transform: translateX(100px)} */
     to{transform: translateX(300%)} /* from 3 times the size of the element; left to right*/
 }
 
-@keyframes slidUp {
+@keyframes slideUp {
     /* from{transform: translateX(100px)} */
     from {transform: translateY(300%)} /* from 3 times the size of the element; bottom to top */
 }
 
-@keyframes slidDown {
+@keyframes slideDown {
     /* from{transform: translateX(100px)} */
     to {transform: translateY(300%)} /* from 3 times the size of the element; top to bottom */
 }
@@ -62,4 +91,16 @@
 
 @keyframes fadeIn {
     50% {opacity: 1;} /* opacity changes to 1 means shows when the element's opacity is 0 */
+}
+
+@keyframes colorChange {
+    0% {background-color: yellow;}
+    20% {background-color: orange;}
+    40% {background-color: pink;}
+    80% {background-color: blue;}
+    100% {background-color: purple;}
+}
+
+@keyframes glow {
+    50% { box-shadow: 0px 0px 50px yellow;}
 }
